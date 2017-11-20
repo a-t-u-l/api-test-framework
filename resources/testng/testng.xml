@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mock_API">
+	<test name="Regression Test">
+		<groups>
+			<run>
+				<include name="Regression Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="test.api.testset.TestPlivoAPI" />
+		</classes>
+	</test>
+</suite>
